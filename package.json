@@ -1,0 +1,24 @@
+{
+  "description": "This is a simple Login page created using Nodejs and MongoDB as database.It contains a simple homeage asking the user whether he needs a login page or a sign up page.And a button for both of these pages..",
+  "version": "1.0.0",
+  "author": "Himanshu",
+  "license": "ISC",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "name": "authentication",
+  "main": "server.js",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "connect-flash": "^0.1.1",
+    "ejs": "^0.8.8",
+    "express": "^3.21.2",
+    "mongoose": "^5.10.2",
+    "nodemon": "^2.0.4",
+    "passport": "^0.1.18",
+    "passport-facebook": "^1.0.3",
+    "passport-google-oauth": "^0.1.5",
+    "passport-local": "^0.1.6",
+    "passport-twitter": "^1.0.4"
+  }
+}
